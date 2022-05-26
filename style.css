@@ -1,0 +1,27 @@
+/* /////////////////////////////////
+/// Website: Siedlce - Curious City
+/// Olga Grochowska
+///////////////////////////////// */
+
+body {
+    margin: 0; 
+    padding: 0;
+    font-family: 'Courgette', cursive;
+    background-color: #0088cc;
+}
+
+#welcome {
+    text-align: center;
+    font-size: 24px;
+    background-color: #b3e6ff;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 15px;
+    -webkit-box-shadow: inset 10px 10px 73px 0px rgba(0, 170, 255, 0.75);
+    -moz-box-shadow: inset 10px 10px 73px 0px rgba(0, 170, 255, 0.75);
+    box-shadow: inset 10px 10px 73px 0px rgba(0, 170, 255, 0.75);
+}
+
+#welcome span {
+    text-transform: uppercase;
+}
