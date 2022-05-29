@@ -129,3 +129,16 @@ body {
 #details th, td {
     width: 50%;
 }
+
+#history p {
+    margin: 20px;
+    text-align: center;
+    padding: 12px;
+}
+
+#background {
+    background-image: url('photos/flag.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+}
