@@ -8,7 +8,7 @@ body {
     padding: 0;
     font-family: 'Courgette', cursive;
     background-color: #0088cc;
-    
+
 }
 
 #welcome {
@@ -31,12 +31,14 @@ body {
 
 #welcome,
 #navigation li,
-#photo img, 
+#photo img,
 #introduction,
-#history, 
-#points-of-interest, 
-#culture, 
-#details table {
+#history,
+#points-of-interest,
+#culture,
+#details table, 
+#flex2 article, 
+#flex2 img {
     border-radius: 20px;
 }
 
@@ -88,9 +90,9 @@ body {
     padding-top: 20px;
 }
 
-#introduction, 
-#history, 
-#points-of-interest, 
+#introduction,
+#history,
+#points-of-interest,
 #culture {
     background-color: #66ccff;
     width: 90%;
@@ -105,13 +107,12 @@ body {
 }
 
 #description {
-    flex: 70%; 
+    flex: 70%;
     text-align: center;
 }
 
 #details {
     flex: 30%;
-    
 }
 
 #details table {
@@ -126,11 +127,14 @@ body {
     padding-right: 20px;
 }
 
-#details th, td {
+#details th,
+td {
     width: 50%;
 }
 
-#history p {
+#history p,
+#points-of-interest p,
+#culture p {
     margin: 20px;
     text-align: center;
     padding: 12px;
@@ -141,4 +145,33 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 80%;
+}
+
+#flex2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#flex2 article {
+    flex: 0 1 30%;
+    background: #cceeff;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+#flex2 img {
+    width: 100%;
+    opacity: 0.85;
+}
+
+#flex2 img:hover {
+    opacity: 1;
+}
+
+@media screen and (max-width: 768px) {
+    #flex2 article {
+        flex: 0 1 45%;
+    }
 }
