@@ -231,15 +231,21 @@ footer h3 {
     font-size: 12px;
 }
 
+#link {
+    box-shadow: 0 0 5px;
+    border-radius: 5px;
+}
+
 footer a {
     text-decoration: none;
     color: white;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
 }
 
 #more:hover {
     color: #00334d;
     background: white;
+    border-radius: 5px;
 }
 
 #links img {
